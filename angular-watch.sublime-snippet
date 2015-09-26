@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$scope.\$watch(function() {
+  return ${1};
+}, function(newVal, oldVal) {
+  ${2}
+});
+]]></content>
+  <tabTrigger>a-watch</tabTrigger>
+</snippet>

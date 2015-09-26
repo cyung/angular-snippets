@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+(function() {
+  'use strict';
+
+  angular.module('${1:app}')
+  .controller('${2/(.+)/\u\1/g}Ctrl', ${2}Ctrl);
+
+  function ${2}Ctrl() {
+    var self = this;
+
+    ${3}
+  }
+
+})();
+]]></content>
+  <tabTrigger>a-ctrl</tabTrigger>
+</snippet>

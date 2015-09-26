@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+	'use strict';
+
+	angular.module('${1:app}')
+	.factory('${2}Factory', ${2}Factory);
+
+	function ${2}Factory() {
+    var services = {
+      ${3}: ${3}
+    };
+
+    return services;
+
+    function ${3}(${4}) {
+      ${5}
+    }
+	}
+
+})();
+]]></content>
+	<tabTrigger>a-fact</tabTrigger>
+</snippet>
