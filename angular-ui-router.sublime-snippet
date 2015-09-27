@@ -1,0 +1,46 @@
+<snippet>
+  <content><![CDATA[
+(function() {
+  'use strict';
+
+
+  angular.module('${1:app}')
+  .config(config);
+
+  function config(\$stateProvider, \$urlRouterProvider) {
+    \$urlRouterProvider.otherwise('/${2}');
+
+    \$stateProvider
+      .state('${2}', {
+        url: '/${2}',
+        templateUrl: '${2}/${2}.html',
+        controller: '${2}Ctrl',
+        controllerAs: '${2/(.+)/\u\1/g}Ctrl',
+        data: {
+          title: '${2/(.+)/\u\1/g}'
+        }
+      })
+      .state('${3}', {
+        url: '/${3}',
+        templateUrl: '${3}/${3}.html',
+        controller: '${3}Ctrl',
+        controllerAs: '${3/(.+)/\u\1/g}Ctrl',
+        data: {
+          title: '${3/(.+)/\u\1/g}'
+        }
+      })
+      .state('${4}', {
+        url: '/${4}',
+        templateUrl: '${4}/${4}.html',
+        controller: '${4}Ctrl',
+        controllerAs: '${4/(.+)/\u\1/g}Ctrl',
+        data: {
+          title: '${4/(.+)/\u\1/g}'
+        }
+      });
+
+  }
+})();
+]]></content>
+  <tabTrigger>a-router</tabTrigger>
+</snippet>
