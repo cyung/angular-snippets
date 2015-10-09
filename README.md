@@ -2,12 +2,28 @@
 
 Clone this repo into your sublime user folder. Type the trigger(e.g. a-fact) and press tab to create the snippet. Use tab to edit the next field.
 
-Linux: ~/.config/sublime-text-3/Packages/User
+##Installation
+Linux:
+```
+cd "~/.config/sublime-text-3/Packages/User"
+git clone https://github.com/cyung/angular-snippets.git
+```
 
-Mac: ~/Library/Application Support/Sublime Text 3/Packages/User
 
-Windows: Users/%NAME%/AppData/Roaming/Sublime Text 3/Packages/User
+Mac: 
+```
+cd "~/Library/Application Support/Sublime Text 3/Packages/User"
+git clone https://github.com/cyung/angular-snippets.git
+```
 
+
+Windows:
+```
+cd "C:/Users/%NAME%/AppData/Roaming/Sublime Text 3/Packages/User"
+git clone https://github.com/cyung/angular-snippets.git
+```
+
+## Examples
 ```
 a-app
 
