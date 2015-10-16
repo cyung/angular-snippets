@@ -12,7 +12,7 @@ git clone https://github.com/cyung/angular-snippets.git
 
 Mac: 
 ```
-cd "~/Library/Application Support/Sublime Text 3/Packages/User"
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 git clone https://github.com/cyung/angular-snippets.git
 ```
 

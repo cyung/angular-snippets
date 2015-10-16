@@ -6,15 +6,15 @@
 	angular.module('${1:app}')
 	.factory('${2}Factory', ${2}Factory);
 
-	function ${2}Factory() {
+	function ${2}Factory(${3}) {
     var services = {
-      ${3}: ${3}
+      ${4}: ${4}
     };
 
     return services;
 
-    function ${3}(${4}) {
-      ${5}
+    function ${4}(${5}) {
+      ${6}
     }
 	}
 

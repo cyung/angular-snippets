@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+self.${1} = function(${2}) {
+  ${3}
+};
+]]></content>
+  <tabTrigger>a-fun</tabTrigger>
+</snippet>

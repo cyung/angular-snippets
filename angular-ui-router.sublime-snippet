@@ -14,8 +14,8 @@
       .state('${2}', {
         url: '/${2}',
         templateUrl: '${2}/${2}.html',
-        controller: '${2}Ctrl',
-        controllerAs: '${2/(.+)/\u\1/g}Ctrl',
+        controller: '${2/(.+)/\u\1/g}Ctrl',
+        controllerAs: '${2}',
         data: {
           title: '${2/(.+)/\u\1/g}'
         }
@@ -23,8 +23,8 @@
       .state('${3}', {
         url: '/${3}',
         templateUrl: '${3}/${3}.html',
-        controller: '${3}Ctrl',
-        controllerAs: '${3/(.+)/\u\1/g}Ctrl',
+        controller: '${3/(.+)/\u\1/g}Ctrl',
+        controllerAs: '${3}',
         data: {
           title: '${3/(.+)/\u\1/g}'
         }
@@ -32,10 +32,28 @@
       .state('${4}', {
         url: '/${4}',
         templateUrl: '${4}/${4}.html',
-        controller: '${4}Ctrl',
-        controllerAs: '${4/(.+)/\u\1/g}Ctrl',
+        controller: '${4/(.+)/\u\1/g}Ctrl',
+        controllerAs: '${4}',
         data: {
           title: '${4/(.+)/\u\1/g}'
+        }
+      })
+      .state('${5}', {
+        url: '/${5}',
+        templateUrl: '${5}/${5}.html',
+        controller: '${5/(.+)/\u\1/g}Ctrl',
+        controllerAs: '${5}',
+        data: {
+          title: '${5/(.+)/\u\1/g}'
+        }
+      })
+      .state('${6}', {
+        url: '/${6}',
+        templateUrl: '${6}/${6}.html',
+        controller: '${6/(.+)/\u\1/g}Ctrl',
+        controllerAs: '${6}',
+        data: {
+          title: '${6/(.+)/\u\1/g}'
         }
       });
 
