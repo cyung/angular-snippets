@@ -6,9 +6,11 @@
 	angular.module('${1:app}')
 	.factory('${2}Factory', ${2}Factory);
 
+  ${2}Factory.\$inject = [];
+
 	function ${2}Factory(${3}) {
     var services = {
-      ${4}: ${4}
+      ${4}: ${4},
     };
 
     return services;

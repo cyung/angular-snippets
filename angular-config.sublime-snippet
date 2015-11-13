@@ -6,6 +6,8 @@
   angular.module('${1:app}')
   .config(config);
 
+  config.\$inject = [];
+
   function config(${2}) {
     ${3}
   }

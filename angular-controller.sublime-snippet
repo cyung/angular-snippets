@@ -4,7 +4,9 @@
   'use strict';
 
   angular.module('${1:app}')
-  .controller('${2/(.+)/\u\1/g}Ctrl', ${2}Ctrl);
+  .controller('${2}Ctrl', ${2}Ctrl);
+
+  $2Ctrl.\$inject = [];
 
   function ${2}Ctrl() {
     var self = this;

@@ -7,6 +7,8 @@
   angular.module('${1:app}')
   .config(config);
 
+  config.\$inject = ['\$stateProvider', '\$urlRouterProvider'];
+
   function config(\$stateProvider, \$urlRouterProvider) {
     \$urlRouterProvider.otherwise('/${2}');
 

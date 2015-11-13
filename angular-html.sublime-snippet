@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+  <meta charset="UTF-8">
+  <title>${1}</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+  <script src="${2:app.module.js}"></script>
+</head>
+
+<body>
+  ${3}
+</body>
+
+</html>
+]]></content>
+	<tabTrigger>a-html</tabTrigger>
+</snippet>
